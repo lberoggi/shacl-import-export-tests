@@ -1,0 +1,22 @@
+id: http://example.org/Constraints
+name: Constraints
+description: A schema to express basic constraints
+classes:
+  Constraints:
+    attributes:
+      string_property:
+        description: A string with length constraints
+        range: string
+        minimum_length: 3
+        maximum_length: 10
+      integer_property:
+        description: An integer with value constraints
+        range: integer
+        minimum_value: 1
+        maximum_value: 100
+      array_property:
+        description: An array with item count constraints
+        range: string
+        multivalued: true
+        minimum_cardinality: 2
+        maximum_cardinality: 5

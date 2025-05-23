@@ -1,0 +1,24 @@
+openapi: 3.0.0
+info:
+  title: Constraints API
+  version: 1.0.0
+paths: {}
+components:
+  schemas:
+    Constraints:
+      type: object
+      properties:
+        stringProperty:
+          type: string
+          minLength: 3
+          maxLength: 10
+        integerProperty:
+          type: integer
+          minimum: 1
+          maximum: 100
+        arrayProperty:
+          type: array
+          items:
+            type: string
+          minItems: 2
+          maxItems: 5

@@ -1,0 +1,21 @@
+id: colorType
+name: ColorType
+description: An enumeration of colors.
+prefixes:
+  linkml: https://w3id.org/linkml/
+  ex: https://example.org/
+default_prefix: ex
+slots: {}
+classes:
+  ColorType:
+    description: A type representing colors.
+    attributes:
+      value:
+        range: ColorEnum
+        required: true
+enums:
+  ColorEnum:
+    permissible_values:
+      red: {}
+      green: {}
+      blue: {}
