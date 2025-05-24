@@ -74,7 +74,3 @@ shacl-import-export-tests/
 ## Contributing
 
 Contributions are welcome! If you have additional tools, test cases, or improvements to the methodology, please submit a pull request or open an issue.
-
-## License
-
-This repository is licensed under the MIT License. See the `LICENSE` file for details.
