@@ -1,6 +1,6 @@
 # SHACL Import-Export Tests
 
-This repository contains tests for evaluating tools that transform schemas between SHACL and other formats, including XSD, JSON Schema, LinkML, OWL, RDFS, OpenAPI, and more. The goal is to establish a rigorous and consistent methodology for testing schema transformations, ensuring that all aspects of a schema are thoroughly evaluated.
+This repository contains tests for evaluating tools that transform schemas between SHACL and other formats, including XSD, JSON Schema, LinkML, OWL, RDFS, OpenAPI, and more. 
 
 ## Methodology
 
